@@ -1,26 +1,25 @@
-var imageContainerMargin = 70;  // Margin + padding
+var imageContainerMargin = 70;
 
-// This watches for the scrollable container
-var scrollPosition = 0;
-$('div#contents').scroll(function() {
-  scrollPosition = $(this).scrollTop();
-});
+var storyFiles = {
+  historia1: 'depuracion_adaptado.geojson',
+  historia2: 'p2.geojson',
+  historia3: 'p2.geojson'
+};
+
+var currentStoryKey = 'historia1';
+var currentStoryLayer = null;
 
 function initMap() {
-
-  // This creates the Leaflet map with a generic start point, because code at bottom automatically fits bounds to all markers
   var map = L.map('map', {
     center: [0, 0],
     zoom: 5,
     scrollWheelZoom: false
   });
 
-  // This displays a base layer map (other options available)
   var natGeo = L.tileLayer('https://server.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
 
-  // Add a second optional layer to switch between them from the map UI
   var darkAll = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
   });
@@ -32,36 +31,56 @@ function initMap() {
 
   L.control.layers(baseMaps).addTo(map);
 
-  // This customizes link to view source code; add your own GitHub repository
-  map.attributionControl
-  .setPrefix('View <a href="http://github.com/jackdougherty/leaflet-storymap" target="_blank">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+  map.attributionControl.setPrefix('View <a href="http://github.com/jackdougherty/leaflet-storymap" target="_blank">code on GitHub</a>, created with <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
 
-  // This loads the GeoJSON map data file from a local folder
-  $.getJSON('p2.geojson', function(data) {
-    var geojson = L.geoJson(data, {
-      onEachFeature: function (feature, layer) {
+  $('.story-nav-button').on('click', function() {
+    var storyKey = $(this).data('story');
+    if (storyKey === currentStoryKey) {
+      return;
+    }
+
+    currentStoryKey = storyKey;
+    $('.story-nav-button').removeClass('active');
+    $(this).addClass('active');
+    loadStory(map, storyFiles[storyKey]);
+  });
+
+  loadStory(map, storyFiles[currentStoryKey]);
+}
+
+function loadStory(map, geojsonUrl) {
+  if (currentStoryLayer) {
+    map.removeLayer(currentStoryLayer);
+  }
+
+  $('#contents').empty();
+  $('#contents').scrollTop(0);
+
+  $.getJSON(geojsonUrl, function(data) {
+    var sections = [];
+
+    currentStoryLayer = L.geoJson(data, {
+      onEachFeature: function(feature, layer) {
         (function(layer, properties) {
-          // This creates numerical icons to match the ID numbers
-          // OR remove the next 6 lines for default blue Leaflet markers
           var numericMarker = L.ExtraMarkers.icon({
             icon: 'fa-number',
-            number: feature.properties['id'],
+            number: properties.id,
             markerColor: 'blue'
           });
           layer.setIcon(numericMarker);
 
-          // This creates the contents of each chapter from the GeoJSON data. Unwanted items can be removed, and new ones can be added
-          var containerSource = $("#container-template").html();
+          var containerSource = $('#container-template').html();
           var containerTemplate = Handlebars.compile(containerSource);
 
           var output = {
-            "containerId": 'container' + feature.properties['id'],
-            "chapter": feature.properties['chapter'],
-            "imgSrc": feature.properties['image'],
-            "srcHref": feature.properties['source-link'],
-            "srcText": feature.properties['source-credit'],
-            "description": feature.properties['description']
-          }
+            containerId: 'container' + properties.id,
+            chapter: properties.chapter,
+            imgSrc: properties.image,
+            srcHref: properties['source-link'],
+            srcText: properties['source-credit'],
+            description: properties.description
+          };
+
           var html = containerTemplate(output);
           $('#contents').append(html);
 
@@ -69,35 +88,48 @@ function initMap() {
           var areaTop = -100;
           var areaBottom = 0;
 
-          // Calculating total height of blocks above active
-          for (i = 1; i < feature.properties['id']; i++) {
-            areaTop += $('div#container' + i).height() + imageContainerMargin;
+          for (i = 1; i < properties.id; i++) {
+            areaTop += $('#container' + i).height() + imageContainerMargin;
           }
 
-          areaBottom = areaTop + $('div#container' + feature.properties['id']).height();
+          areaBottom = areaTop + $('#container' + properties.id).height();
 
-          $('div#contents').scroll(function() {
-            if ($(this).scrollTop() >= areaTop && $(this).scrollTop() < areaBottom) {
-              $('.image-container').removeClass("inFocus").addClass("outFocus");
-              $('div#container' + feature.properties['id']).addClass("inFocus").removeClass("outFocus");
-
-              map.flyTo([feature.geometry.coordinates[1], feature.geometry.coordinates[0] ], feature.properties['zoom']);
-            }
+          sections.push({
+            id: properties.id,
+            top: areaTop,
+            bottom: areaBottom,
+            coords: [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+            zoom: properties.zoom
           });
 
-          // Make markers clickable
           layer.on('click', function() {
-            $("div#contents").animate({scrollTop: areaTop + "px"});
+            $('#contents').animate({ scrollTop: areaTop + 'px' });
           });
-
         })(layer, feature.properties);
       }
     });
 
-    $('div#container1').addClass("inFocus");
+    $('#container1').addClass('inFocus');
     $('#contents').append("<div class='space-at-the-bottom'><a href='#space-at-the-top'><i class='fa fa-chevron-up'></i></br><small>Top</small></a></div>");
-    map.fitBounds(geojson.getBounds());
-    geojson.addTo(map);
+    currentStoryLayer.addTo(map);
+    map.fitBounds(currentStoryLayer.getBounds());
+
+    $('#contents').off('scroll.story').on('scroll.story', function() {
+      var scrollTop = $(this).scrollTop();
+      var activeSection = null;
+
+      sections.forEach(function(section) {
+        if (scrollTop >= section.top && scrollTop < section.bottom) {
+          activeSection = section;
+        }
+      });
+
+      if (activeSection) {
+        $('.image-container').removeClass('inFocus').addClass('outFocus');
+        $('#container' + activeSection.id).addClass('inFocus').removeClass('outFocus');
+        map.flyTo(activeSection.coords, activeSection.zoom);
+      }
+    });
   });
 }
 

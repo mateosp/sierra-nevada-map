@@ -1,0 +1,505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "chapter": "Isla Escondida Fundacion gallito de roca",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=1",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Esthefan Cucialpud&nbsp; Colectivo gallito de roca / isla escondida Desde niño recorría la \"isla\", absorbiendo la sabiduría de la flora y la fauna. De aserradero pasó a ser el administrador de la Reserva La Escondida, una transformación que lo convirtió en el protector de este paraíso natural. Su conocimiento de la selva lo convierte en el guía perfecto para las actividades desde bioconstrucción hasta tejido y bordado. En 2014, junto a 27 jóvenes, Esthefan fundó el Colectivo Gallito de Roca. Un canto a la esperanza que busca transformar su territorio, estigmatizado por la violencia, en un modelo de desarrollo sostenible. Como misión quiere generar un impacto positivo en la conservación ambiental y la educación de las nuevas generaciones. A través del turismo responsable, ofrecen planes de avistamiento de aves, recorridos por senderos ecológicos y talleres de artesanía. De esta manera, no solo dan a conocer la riqueza natural de su región, sino que también generan oportunidades de empleo para las familias locales. Hacen campañas de prevención de caza y procesos de memoria, buscan resignificar su territorio, rescatando su historia y tradiciones."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8796061,
+          0.6766345,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "chapter": "Eslabon la realidad",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=2",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Tania&nbsp; Laisuna Su proyecto se enfoca en la transformación a través de la agricultura regenerativa y la gastronomía amazónica donde confluyen el Pacífico, los Andes y la selva. Su propósito es claro, aportar al proceso de transición hacia una forma de vida humana que beneficie al sistema natural. A través de El Eslabón promueve prácticas sostenibles como la agricultura regenerativa, la investigación endógena y la gastronomía amazónica. Su enfoque es holístico, basado en un sistema forestal que tiene como pilares el cacao y las delicias de la Amazonia. Su propuesta no solo busca la salud del planeta, sino también el bienestar de las comunidades que producen, del consumidor final y la preservación del legado de conocimientos ancestrales asociados al cacao. En su taller de fermentos explora las posibilidades de diferentes plantas amazónicas como el chocolate de copoazú y el pan artesanal de fermentación lenta de coca. Para ella el canto es una forma de conexión profunda con la tierra donde se encuentra la sabiduría de los pueblos y mantiene viva la ley de origen. Ser mestizo, en este contexto, es una herramienta poderosa de innovación social donde se teje una red de conservación de la biodiversidad. “Las orquídeas, sutiles maestras de la convivencia tropical, comparten sus historias a través del viento. Y por las tardes, al aroma del café, se comparten nuevas noticias: nuevos reportes de especies, canciones que nacen del corazón de la tierra y platillos deliciosos que la Madre Tierra ofrece.”"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6532948,
+          1.0347207,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "chapter": "Jardín Botánico Tabanok",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=3",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "BRAYAN CORAL&nbsp; Biologo Autodidacta Guia de aviturismo Nacido en Sibundoy, creció rodeado de naturaleza y viendo como su madre la señora Agueda se relacionaba con ella. Desde pequeño, exploraba los bosques y páramos, fascinado por las aves y plantas que encontraba. Siempre con mirada curiosa y aguda.Comenzó a documentar la belleza natural de su entorno. Sus fotos en Instagram y Facebook no solo cautivaron a la comunidad, sino también a científicos que se sorprendieron al ver aves y plantas nuevas para la ciencia. Así fue como empezó a tener relación con instituciones como WWF, instituto Humboldt y fundación Gaia. Más allá de la ciencia también se conecta con las tradiciones recorriendo montañas, páramos y el camino indígena de Sachamates, compartiendo experiencias con comunidades indígenas. Aprendió sobre el cultivo y uso de plantas medicinales a través de su madre. Brayan comparte su conocimiento con la comunidad motivándolos a vivir en armonía con la naturaleza. En sus caminatas por la selva, busca productos naturales y enseña sobre el teñido natural. Sus viajes a Leguizamo le permiten descubrir nuevas plantas y tener experiencias de introspección. En febrero hizo una expedición a Leguizamo a recolectar semillas, documentar aves y plantas en floración, y grabar sus cantos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9260775,
+          1.2124008,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "chapter": "Reserva Indígena +nkal Awá La Nutria 'Piman\"",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=4",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "WILMER&nbsp; A dedicado su vida al cuidado de la tierra y la preservación de la cultura Awá.&nbsp; Guiado por las enseñanzas ancestrales de sus abuelos, ha honrado la tierra y sus tradiciones a pesar de los desafíos y el conflicto que ha azotado a Nariño.Su labor como cuidador del territorio se centra en la conservación de la lengua Awá, la conexión con la naturaleza, los bosques y la cosmovisión ancestral. Trabaja incansablemente para proteger la cultura Awabi y guiar a visitantes por su reserva, junto a otros miembros de la comunidad que se dedican a honrar el legado a través de la conservación y la gobernanza del plan de vida Awá. Su pasión por la música lo lleva a ser parte del grupo musical \"Canalon\", donde expresa su cultura a través de las marimbas y los tambores. Además, se destaca como maestro chapinlero, transmitiendo este arte tradicional a las nuevas generaciones. Este líder indígena es un ejemplo de compromiso con la tierra, la cultura y la comunidad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1758118,
+          1.3583586,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "chapter": "Reserva Dantakunapa (Fundación Kindicocha)",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=5",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "CAMILO BARRERA de Kindicocha Guardián de las Orquídeas Andinoamazónicas Su pasión por estas flores nació en su infancia, observando a sus abuelas y padres cuidarlas con amor en el Valle de Sibundoy. A los 14 años, Camilo decidió tomar un camino diferentey dejó el colegio tradicional y se embarcó en un viaje de aprendizaje autodidacta, guiado por su madre y la sabiduría ancestral. La abuela Rejoya se convirtió en su escuela, la montaña donde pasó su adolescencia observando la naturaleza y descifrando sus secretos. \"La escuela de la vida está diseñada de forma perfecta y evolutiva\" por eso el propósito de Camilo es hacer realidad el propósito de la Madre Tierra para este territorio, transformándolo en un jardín próspero donde se pueda vivir en paz durante los próximos 100 años. En 2024, Camilo lideró un proyecto visionario: reunió a abuelos, abuelas, indígenas de diferentes etnias e investigadores científicos para recorrer las montañas sagradas y los caminos precolombinos del Valle de Sibundoy. Su objetivo era recibir el mensaje de la tierra y trazar un camino hacia un futuro pacífico y sostenible. Hoy, Camilo custodia 553 hectáreas de bosque, un refugio para 824 especies de plantas, muchas de ellas en peligro de extinción. Su trabajo va más allá de la conservación; busca reconectar a las personas con sus raíces y revalorizar los usos tradicionales de la flora. En el laboratorio cultiva 28 variedades de borracheros recuperando algunas y sosteniendo otras.&nbsp; Dicta talleres sobre el cultivo de orquídeas, la elaboración de esencias florales y la medicina homeopática. \"Somos agua, y el agua tiene memoria\", explica Camilo. \"El agua puede ser grabada con la información vibratoria de un cristal y también de las orquídeas. Por eso grabamos el campo electromagnético del agua de ellas y creamos esencias para uso curativo\"."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9801573,
+          1.1794308,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "chapter": "Reserva Natural Río Ñambí",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=6",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "MAURICIO&nbsp; Nació y creció en el corregimiento de Altaquer, en el municipio de Barbacoas (Nariño), una región con una alta biodiversidad de aves y plantas. Estudió biología y junto a su hermano Cristian, ha dedicado su vida a promover la conservación de la biodiversidad y el desarrollo sostenible en Nariño.&nbsp; Hace parte de la fundación ecológica los colibríes que se dedica a&nbsp; a la conservación y preservación de los recursos naturales en la zona del pie de monte costero del departamento de Nariño Su padre es considerado uno de los maestros del chapil y del cultivo de frutales nativos de la zona, son una familia que ha convivido de frente con los conflictos pero a pesar de ello su amor tan grande por este territorio y la reserva que por años han ido preservando juntos que encontraron formas de sobrevivir y negociar con los grupos armados que invadieron tantas veces su zona. Mauricio ha logrado posicionar a la Reserva Río Ñambí como uno de los mejores destinos de naturaleza del país, especialmente para avituristas y científicos. Su trabajo ha sido reconocido por diferentes instituciones, incluyendo el Ministerio de Ambiente y Desarrollo Sostenible de Colombia. Ha liderado la creación de senderos ecológicos, programas de educación ambiental y proyectos de investigación científica."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.0932199,
+          1.2831307,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "chapter": "Reserva Natural Encanto Andino",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=7",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "CONCHITA MATABONCHOY&nbsp; Es una líder incansable en la lucha por la protección de la Laguna de la Cocha y el bienestar de su comunidad. Nacida y criada en las orillas de este mágico lugar, su amor por la laguna la ha convertido en una defensora apasionada del medio ambiente y la soberanía alimentaria. En su juventud, talaba árboles para ganarse la vida y en su camino tuvo un despertar que la motivó a cambiar su camino y comprendió que la laguna era un tesoro invaluable que debía ser protegido para las futuras generaciones. A dedicado su vida a la defensa del ecosistema de la laguna, trabajando en la reforestación, la&nbsp; protección de las especies endémicas y la promoción de prácticas sostenibles. Es defensora de la soberania alimentaria entendiendo la naturaleza como parte de los seres humanos, lidero la creacion de un fondo de creditos para pequeños proyectos productivos, ha liderado la creación de un fondo de créditos para pequeños proyectos productivos y este fondo ha permitido a las familias de la comunidad cultivar moras, criar cuyes y truchas, producir leche y cultivar huertas para su propio consumo. Su mensaje es simple y poderoso: \"Somos herederos del planeta y como tal debemos comportarnos\". Conchita ha inspirado a su comunidad a unirse a la lucha por la protección del medio ambiente. Su compromiso la ha llevado a fundar la Red de Reservas Naturales de la Cocha. Su trabajo ha trascendido fronteras, incluso viajando a Canadá para compartir experiencias con otros líderes ambientales. Estas experiencias han fortalecido su amor por su tierra y su convicción de que la protección del medio ambiente es un compromiso global."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1305563,
+          1.0743974,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "chapter": "Chula Juan",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=8",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "kn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3094532,
+          4.9029966,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "chapter": "Cunaguaro Travel",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=9",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "LAURA MIRANDA CORTEZ&nbsp; https://elpais.com/america-colombia/branded/los-lideres-de-colombia/2023-12-06/laura-miranda-cortes-la-guardiana-del-llano.html La ecóloga trabaja desde hace 11 años en la conservación de ecosistemas y de mamíferos como el oso hormiguero y el jaguar, en el Casanare. Con su organización, desarrolla estrategias para cuidar la naturaleza y promover el turismo sostenible. conservación y valoración de los recursos naturales, la biodiversidad, las expresiones culturales y el mejoramiento de la calidad de vida de las comunidades. conservación de hormigueros Recuperacion cuenca del orinoco Expedicion osito trueno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3989379,
+          5.3494641,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "chapter": "Fundacion Salva monte",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=10",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "SEBASTIAN VIEIRA Fotografo Naturalisa, saco uno de los primero libro de orquideas de colombia hace parte de grupo shultes dedicado al estudio y conservación de las orquídeas neotropicales. Reserva Salva Montes - Sociedad de orquideologia protección de especies silvestres amenazadas proyectos de investigación y educación ambiental árboles del género Magnolia Conservación del Montañerito Paisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4680556,
+          7.0772222,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "chapter": "Reserva Natural Mesenia Paramillo - Fundación Bioconservancy",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=11",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Luis A. Mazariegos Hurtado Biologo PHD en virologia. inversion de entidades internal para la conservacion identificación de nuevas especies, centro de investigación en la Mesenia. trabaja con la universidad de los andes. viajes por la America tropical para lograr fotografías más de 200 especies de colibríes libro \"Joyas Aladas de Colombia\", para contribuir a la conservación de las especies amenazadas en Colombia iniciativas de investigación y conservación en los Andes noroccidentales de ColombiaFundacion Bioconservancy Fotografia estroboscopica Caja de pandora (nuevas especies de Colombia )"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8891724,
+          5.496096,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "chapter": "CEURA RESGUARDO",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=12",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "FANNY IGUARAN&nbsp; Resguardo indigena Ceura Princesa Wayu Enseña los patrones tejidos wayu La fuerza que ha tenido para motivar a su clan con razones contundentes para preservar sus costumbres. semilleros en las nuevas generaciones para que se proteja y se mantenga viva suherencia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8849095,
+          10.8967629,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "chapter": "Santagueda GM",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=13",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "FELIPE GIRALDO&nbsp;&nbsp; Fueego Lo que fue Ego y ahora es FUEGO 🔥 , ser en esencia , brillar sin opacar, no dejar de brillar por pertenecer. Reserva natural en el departamento de caldas. Trabajo con ganaderia regenerativa ( aguas, pastos). Trabajo ambiental con corpocaldas reinserción de animales. Finca en cali de la historia del libro la María. (finca lechera). Casa con 200 años de historia. , experiencia en cursos de supervivencia Elaboracion de cuchlllos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6705567,
+          5.0637654,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "chapter": "Guajira Birding Travel",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=14",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Jose Luis pushaina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0885647,
+          11.430167,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "chapter": "Laguna Magdalena/Losandes",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=15",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Alejandra Balcazar&nbsp; Narradora de historias de transformación y conexión profunda con la tierra. Desde los años 80, cuando trabajaba en Pitalito con un grupo de niños cuyas enseñanzas y legado aún resuenan hoy en día. Ella ha transitado por diversos campos, desde el Derecho hasta el periodismo, el teatro y la ganadería regenerativa.Como periodista participó en prestigiosas publicaciones como Gatopardo, explorando temas de sostenibilidad y cuidado ambiental. Cofundadora y Directora de la corporación Efecto Mariposa,Su trabajo se enfoca en generar espacios donde las personas puedan reconectar con la naturaleza y descubrir el sentido de su propia voz en el mundo. Facilita programas que exploran la conexión profunda del alma y ayudan a comprender los dones únicos que cada individuo trae consigo. Organiza programas intensivos en colaboración con el Ánimas Valley Institute, brindando experiencias de inmersión en el bosque que permiten un profundo trabajo personal y de conexión con el entorno natural. Además, lidera un programa de investigación del Paisaje Sonoro del bosque de niebla Alto Andino, donde músicos se sumergen en experiencias de convivencia para trazar un mapa de ruta hacia una comprensión más profunda de nuestro entorno. Con su visión holística y su compromiso con la regeneración tanto personal como planetaria inspira a otros a explorar nuevas formas de ver y vivir en la Tierra, trazando un camino hacia un futuro más consciente y armonioso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6088889,
+          1.9347222,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "chapter": "Santuario de Fauna y Flora Iguaque",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=16",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Maurioco hernandez&nbsp; Un naturalista muy inquieto, siempre a la búsqueda de todas las especies de animales y plantas que se encuentran a nuestro alrededor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4367049,
+          5.6883054,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "chapter": "Finca el cubo sopo",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=17",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Claudia Medina&nbsp; Ha dedicado su vida al estudio taxonómico, ecológico y a conocer de la biología e historia natural de estos insectos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93815169292431,
+          4.919263325572249,
+          2642.001777654705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "chapter": "Memorias del magdalena",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=18",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Lorenzo Granada&nbsp; Estudia los desaparecidos del magdalena medio&nbsp; ritualizacion&nbsp; terirtorio costumbres&nbsp; la voz de las personas del territorio Alejandra Balcazar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.57002013293227,
+          6.252693080222537,
+          121.8960708903536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "chapter": "Magdalena River Museum",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=19",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "German Ferro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7348676,
+          5.2023417,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 20,
+        "chapter": "PNN Utría Mano Cambiada",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=20",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Josefina klinger&nbsp; fundacion mano cambiada&nbsp;"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.349163,
+          6.0157973,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 21,
+        "chapter": "Calanoa",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=21",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Mauricio&nbsp; biologo artista trabajao con la comunidad reserva&nbsp; biodiversidad reforestacion&nbsp;"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.248062,
+          -3.8271126,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "chapter": "Reserva Aguila Arpía Mapiripana",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=22",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "gefferson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.0680299,
+          2.63277,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "chapter": "Reserva ProAves Hormiguero de Torcoroma",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=23",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Guillero&nbsp; biologo autodidacta cuidador del osos hormiguero en su teritorio&nbsp;"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3800213,
+          8.2034968,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 24,
+        "chapter": "Chamicero del Perijá ProAves Reserve",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=24",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9496647,
+          10.36274,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "chapter": "Reserva Natural YAYA/CACAO",
+        "zoom": 12,
+        "image": "https://picsum.photos/800/600?random=25",
+        "source-credit": "Generic placeholder",
+        "source-link": "https://example.com",
+        "description": "Jorge Luis Vargas&nbsp; Cañon del rio yaya El cacao&nbsp; Hombre de campo, nacido y criado en la Vereda El Piñuelo, un lugar de verdes montañas y aire puro en el Huila. Su familia ha vivido por generaciones del trabajo de la tierra. Su proposito es transformar la vida de los campesinos del Huila a través del turismo rural y ecológico. Junto a su familia creó YAYA un proyecto de vida que busca dignificar las labores del campo y ofrecer a las nuevas generaciones oportunidades de desarrollo sin tener que migrar a las ciudades en la reserva se puede hacer senderismo, avistamiento de aves, cabalgatas, talleres artesanales y aprender sobre el proceso de transformación del cacao, un producto emblemático del Huila. Potencializamos la historia, cultura y economía local a través de un modelo que resalta los atractivos naturales de la región, el arte tradicional de nuestros campesinos, la gastronomía local y la producción de derivados el cacao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4810173,
+          3.0313076,
+          0.0
+        ]
+      }
+    }
+  ]
+}

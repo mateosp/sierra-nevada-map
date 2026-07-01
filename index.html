@@ -20,7 +20,7 @@
 
 <body>
   <div id="title" class="title-text">
-    <h3>Insert your title here</h3>
+    <h3>Personas Rio Arriba</h3>
     <small>Scroll <i class="fa fa-chevron-down"></i></small>
   </div>
 
@@ -30,12 +30,17 @@
     </div>
   </div>
 
-  <div id="map"></div>
+  <div id="story-nav" class="story-nav" aria-label="Selector de historias">
+    <button class="story-nav-button active" data-story="historia1">Historia 1</button>
+    <button class="story-nav-button" data-story="historia2">Historia 2</button>
+    <button class="story-nav-button" data-story="historia3">Historia 3</button>
+  </div>
 
-  <script type="text/javascript" src="script.js"></script>
+  <div id="map"></div>
 
   <!-- handlebars template for each individual story -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   <script id="container-template" type="text/x-handlebars-template">
     <div id="{{containerId}}" class="image-container">
       <p class="chapter-header">{{chapter}}</p>
